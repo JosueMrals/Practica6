@@ -51,3 +51,30 @@
 
 > *Regrese a la activity principal e indique que instancias del ciclo de vida del activity se han ejecutado*
 
+## 1.3: Compartiendo datos de Activity principal a la segunda
+
+> *Agregue el siguiente código para enviar datos activities, debe reemplazar el código anterior del método **lanzarSegundaActivity**. Muetre los resultados.*
+
+<img src="medios\13.png"/>
+
+## Modificando la segunda activity para obtener los extras
+
+> *Abra el fichero **Segunda.kt** para agregar código al método **onCreate()**.*
+
+<img src="medios\14.png"/>
+
+> *Obtenga el intent que activó esta activity*
+
+<img src="medios\15.png"/>
+
+> *Obtenga la cadena que contiene el mensaje de los extras de Intent usando el valor del objeto creado en la activity principal y obtenerlo usando la clave **MainActivity.EXTRA_MESSAGE**:*
+
+<img src="medios\16.png"/>
+
+> *Use **findViewById()** para obtener la referencia del **TextView** para el mensaje del layout.*
+
+<img src="medios\17.png"/>
+
+> *Establezca el texto del **TextView** con la cadena obtenida del extra del intent*
+
+<img src="medios\18.png"/>
