@@ -78,3 +78,13 @@
 > *Establezca el texto del **TextView** con la cadena obtenida del extra del intent*
 
 <img src="medios\18.png"/>
+
+> *Ejecute la aplicación. Cuando escriba el mensaje en el **MainActivity**, haga clic en el botón **Enviar**, se lanza la **SegundaActivity** y se muestra el mensaje*
+
+> *Muestre resultados a través de capturas de pantalla y comentarios*
+
+<img src="medios\19.jpg"/>
+<img src="medios\20.jpg"/>
+
+        Ahi se puede observar en la primer captura que se ingresa la palabra "Hola", y se manda a la segunda ventana, mostrandose en el segundo texto en la parte superior de la pantalla.
+
