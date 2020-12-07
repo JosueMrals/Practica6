@@ -88,3 +88,28 @@
 
         Ahi se puede observar en la primer captura que se ingresa la palabra "Hola", y se manda a la segunda ventana, mostrandose en el segundo texto en la parte superior de la pantalla.
 
+## 1.4 Devolver datos al activity principal
+
+> *Abra el fichero **activity_segunda.xml** y verifique que dispone de la estructura indicada al principio de estas tareas con sus identificadores correspondientes.*
+
+> *Establezca el evento **onClick** al botón con identificador **btRes**.*
+
+<img src="medios\19.png"/>
+
+> *Solamente queda crear el método **devolverRespuesta()**, el cual puede agregarlo después del cierre de llave del método **onCreate()**.*
+
+<img src="medios\20.png"/>
+
+## Crear respuesta del intent en la segunda Activity
+
+> *Abre **Segunda.kt** por si aún no lo está.*
+
+> *Agrega un companion object para obtener una sola instancia de objeto sin necesidad de crear una nueva, esto se debe agregar después de la apertura de la llave de la clase Segunda, al inicio para no generar confusiones.*
+
+<img src="medios\21.png"/>
+
+> *Agregue el código del método **devolverRespuesta()**.*
+
+<img src="medios\22.png"/>
+
+
