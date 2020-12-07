@@ -112,4 +112,25 @@
 
 <img src="medios\22.png"/>
 
+## 1.5: Obtener la respuesta en el MainActivity y mostrarlo en el TextView
 
+> *Abra el fichero de **MainActivity.kt**.* 
+
+> *Borre o comente la línea de **startActivity(intent)** a **startActivityForResult(intent, TEXT_REQUEST)**, recuerde que **TEXT_REQUEST** está dentro del companion object.*
+
+<img src="medios\23.png"/>
+
+> *Pasaremos a anular el método **onActivityResult()**, vamos a **Code > Override methods** o simplemente **CTRL + O**, busque el método **onActivityResult()**.*
+
+<img src="medios\25.png"/>
+
+> *Agregue el siguiente código a este método para obtener el extra y establecer en el TextView indicado para esto que se identifica con datoRecibido.*
+
+<img src="medios\24.png"/>
+
+> *Ahora cuando envíes datos de la segunda Activity hacia la principal, deberías de obtener el mensaje.*
+
+<img src="medios\25.jpeg"/>
+<img src="medios\26.jpeg"/>
+<img src="medios\27.jpeg"/>
+<img src="medios\28.jpeg"/>
