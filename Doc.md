@@ -134,3 +134,29 @@
 <img src="medios\26.jpeg"/>
 <img src="medios\27.jpeg"/>
 <img src="medios\28.jpeg"/>
+
+## 1.6: Crear el activity de Scrolling
+
+> *Agregue un nuevo Activity dando clic derecho en la carpeta app o en res en el proyecto*
+
+<img src="medios\29.png"/>
+
+## Estructura del Activity Scrolling:
+
+## 1.7: Agregue un Activity Aritmética
+
+> *Agregue un nuevo **Activity**, yendo a la carpeta res, dar clic derecho sobre ella e ir a **New > Activity > Empty Activity**.*
+
+<img src="medios\30.png"/>
+<img src="medios\31.png"/>
+
+> *Utilice la estructura mostrada con anterioridad, agregando los elementos necesarios con sus identificadores correspondientes*
+
+> *Obtenga la instancia del **Button** usando el método **findViewById()**.*
+
+<img src="medios\32.png"/>
+
+> *Cree el método **realizarSuma()** y establezca el resultado de la suma en la propiedad text de etResultadoSuma*
+
+<img src="medios\33.png"/>
+
