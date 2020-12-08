@@ -143,6 +143,10 @@
 
 ## Estructura del Activity Scrolling:
 
+<img src="medios\34.jpeg"/>
+
+        En el resultado hay un parrafo grande el cual ya lo desplaze, pero no se como mostrarselo en la captura.
+
 ## 1.7: Agregue un Activity Aritmética
 
 > *Agregue un nuevo **Activity**, yendo a la carpeta res, dar clic derecho sobre ella e ir a **New > Activity > Empty Activity**.*
@@ -159,4 +163,13 @@
 > *Cree el método **realizarSuma()** y establezca el resultado de la suma en la propiedad text de etResultadoSuma*
 
 <img src="medios\33.png"/>
+
+> *Debe agregar un item de string en strings.xml llamado resultado_aritmetica, debe contener el valor: El resultado es*
+
+<img src="medios\35.png"/>
+
+> *Ejecute la aplicación y explique los resultados obtenidos*
+
+<img src="medios\36.jpeg"/>
+
 
